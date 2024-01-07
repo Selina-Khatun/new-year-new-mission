@@ -3,34 +3,94 @@
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
 }
+main {
+  max-width: 1320px;
+  margin: auto;
+}
 /* ****** header banner section styles ****** */
 header h2 {
-    color: #fff;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-  }
-  
-  header h1 {
-    color: #fff;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
-  }
-  header {
-    max-width: 1320px;
-    margin: 4% auto;
-    height: 600px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-      url("../resources/BannerImage.png");
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
- 
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+header {
+  max-width: 1320px;
+  margin: 4% auto;
+  height: 600px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/BannerImage.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ******** HOLIDAY DEALS section styles ******* */
+
+.deals-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+.deals-info h1 {
+  color: #f00;
+  padding: 4% 0%;
+  font-family: Inter;
+  font-size: 74px;
+  font-weight: 700;
+}
+.deals-info h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.deals-info h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 3% 0%;
+}
+.deals-container img {
+  width: 50%;
+  padding: 2%;
+}
+
+/* ********* midnight party section ******** */
+.party-container {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/party.png");
+  width: 1320px;
+  height: 600px;
+}
+.party-info h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; 
+  letter-spacing: 7.04px;
+}
+.party-info p{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+line-height: 30px; 
+}
