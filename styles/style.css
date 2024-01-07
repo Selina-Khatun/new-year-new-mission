@@ -3,3 +3,34 @@
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
 }
+/* ****** header banner section styles ****** */
+header h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+  }
+  
+  header h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+  }
+  header {
+    max-width: 1320px;
+    margin: 4% auto;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+      url("../resources/BannerImage.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ 
