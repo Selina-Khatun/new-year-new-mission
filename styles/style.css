@@ -77,20 +77,45 @@ header {
 .party-container {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/party.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
   width: 1320px;
   height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+.party-info {
+  width: 45%;
+}
+
 .party-info h1 {
   color: #fff;
   font-family: Merriweather;
-  font-size: 64px;
+  font-size: 57px;
   font-weight: 900;
-  line-height: 88px; 
+  line-height: 80px;
   letter-spacing: 7.04px;
 }
-.party-info p{
-    color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-line-height: 30px; 
+.party-info p {
+  color: #e6dace;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 2% 0%;
+}
+.btn-outline {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  background-color: #070211;
+  border: 1px solid;
+  text-transform: uppercase;
+  padding: 2%;
+  border-radius: 8px;
+}
+.btn-outline:hover {
+  background-color: #e6dace;
+  color: black;
+  font-weight: 700;
 }
