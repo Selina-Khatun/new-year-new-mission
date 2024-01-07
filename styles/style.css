@@ -7,6 +7,39 @@ main {
   max-width: 1320px;
   margin: auto;
 }
+/* ******* all button styles ******** */
+
+.btn-outline {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  background-color: #070211;
+  border: 1px solid;
+  text-transform: uppercase;
+  padding: 2%;
+  border-radius: 8px;
+}
+.btn-outline:hover {
+  background-color: #e6dace;
+  color: black;
+  font-weight: 700;
+}
+.btn-red {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  background: #f00;
+  border: none;
+  text-transform: uppercase;
+  padding: 3% 5%;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 5%;
+}
+.btn-red:hover {
+  background-color: #e40404;
+  font-weight: 700;
+}
 /* ****** header banner section styles ****** */
 header h2 {
   color: #fff;
@@ -28,7 +61,7 @@ header {
   margin: 4% auto;
   height: 600px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../resources/BannerImage.png");
+    url("../resources/BannerImage.png") fixed;
   background-repeat: no-repeat;
   /* background-size: cover; */
   border-radius: 16px;
@@ -76,7 +109,7 @@ header {
 /* ********* midnight party section ******** */
 .party-container {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../resources/party.png");
+    url("../resources/party.png") fixed;
   background-repeat: no-repeat;
   border-radius: 16px;
   width: 1320px;
@@ -84,6 +117,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 5% 0%;
 }
 .party-info {
   width: 45%;
@@ -104,18 +138,31 @@ header {
   line-height: 28px;
   padding: 2% 0%;
 }
-.btn-outline {
-  color: #fff;
+
+/* ******* location and time section styles ****** */
+.place-container {
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: 7% 0%;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place-info h3 {
   text-align: center;
   font-family: Inter;
-  background-color: #070211;
-  border: 1px solid;
-  text-transform: uppercase;
-  padding: 2%;
-  border-radius: 8px;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
 }
-.btn-outline:hover {
-  background-color: #e6dace;
-  color: black;
-  font-weight: 700;
+.text-red {
+    color: #F00;
 }
