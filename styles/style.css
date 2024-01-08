@@ -268,14 +268,26 @@ header {
   gap: 20px;
 }
 .portfolio-img img {
-  width: 95%;
-  height: 93%;
+  width: 85%;
+  height: 83%;
   margin: auto;
+  -webkit-transform: scale(1.1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.portfolio-img img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+  border: 3px solid red;
+  border-radius: 20px;
+  box-shadow: 3px 5px 5px rgb(252, 128, 128);
 }
 /* ******************************* */
 .subscribe-container {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
+  margin: 3% 0%;
 }
 .subscribe-container .offer-info {
   text-align: center;
@@ -296,7 +308,7 @@ header {
   width: 400px;
   height: 37px;
   flex-shrink: 0;
-  color: rgba(7, 2, 17, 0.30);
+  color: rgba(7, 2, 17, 0.3);
   border-radius: 50px;
   background: #fff;
   border: 3px solid #fff;
@@ -316,4 +328,39 @@ header {
   position: absolute;
   border: none;
   padding: 0% 2%;
+}
+footer {
+  background: #070211;
+  margin-top: 7%;
+}
+
+footer p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 15% 0%;
+}
+.footer-info-rights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 7% 5% 15%;
+}
+.footer-contact,
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+hr {
+  border: 1px #2c2835 solid;
+  margin: 3% 7% 2% 15%;
 }
