@@ -256,14 +256,64 @@ header {
 /* *******   ******* */
 .portfolio-container .offer-info {
   width: 60%;
-  margin-top: 5%;
+  margin: 5% 1%;
 }
 .portfolio-container .offer-info h2 {
   padding: 1% 0%;
 }
 .portfolio-img {
   display: grid;
-  grid-template-columns:2fr 2fr 2fr ;
+  grid-template-columns: 2fr 2fr 2fr;
   padding: 3% 0%;
-  gap: 25px;
+  gap: 20px;
+}
+.portfolio-img img {
+  width: 95%;
+  height: 93%;
+  margin: auto;
+}
+/* ******************************* */
+.subscribe-container {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-container .offer-info {
+  text-align: center;
+  width: 70%;
+  padding: 5%;
+  margin: auto;
+}
+.input-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.text-field {
+  width: 400px;
+  height: 37px;
+  flex-shrink: 0;
+  color: rgba(7, 2, 17, 0.30);
+  border-radius: 50px;
+  background: #fff;
+  border: 3px solid #fff;
+  position: relative;
+  padding: 1% 0% 1% 5%;
+  outline-color: #f00;
+}
+.btn-subscribe {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  position: absolute;
+  border: none;
+  padding: 0% 2%;
 }
