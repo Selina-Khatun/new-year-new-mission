@@ -4,7 +4,7 @@
   font-family: "Merriweather", serif;
 }
 main {
-  max-width: 1320px;
+  max-width: 1300px;
   margin: auto;
 }
 /* ******* all button styles ******** */
@@ -57,7 +57,7 @@ header h1 {
   line-height: 95px;
 }
 header {
-  max-width: 1320px;
+  max-width: 1300px;
   margin: 4% auto;
   height: 600px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -112,7 +112,7 @@ header {
     url("../resources/party.png") fixed;
   background-repeat: no-repeat;
   border-radius: 16px;
-  width: 1320px;
+  width: 1300px;
   height: 600px;
   display: flex;
   align-items: center;
@@ -141,7 +141,7 @@ header {
 
 /* ******* location and time section styles ****** */
 .place-container {
-  width: 1320px;
+  width: 1300px;
   height: 482px;
   background: linear-gradient(
     180deg,
@@ -164,5 +164,67 @@ header {
   text-transform: capitalize;
 }
 .text-red {
-    color: #F00;
+  color: #f00;
+}
+
+.offer-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 3%;
+  align-items: center;
+  /* height: 90vh; */
+}
+.offer-info {
+  width: 35%;
+}
+.offer-info h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.offer-info h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 3% 0%;
+}
+.offer-info p,.offer-info-more p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.offer-photo {
+  width: 35%;
+  height: 35%;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-photo img {
+  border-radius: 364.844px;
+  /* width: 80%; */
+  /* height: 364.844px; */
+  padding: 5%;
+}
+.offer-info-more {
+  width: 35%;
+  margin-top: 5%;
+}
+.offer-info-more h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+
+}
+.offer-info-more img{
+  padding: 3% 0%;
 }
