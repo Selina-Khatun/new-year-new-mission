@@ -19,11 +19,14 @@ main {
   padding: 2%;
   border-radius: 8px;
   margin-left: 4%;
+
+  transition: 0.3s ease-in-out;
 }
 .btn-outline:hover {
   background-color: #e6dace;
   color: black;
   font-weight: 700;
+  transition: 0.3s ease-in-out;
 }
 .btn-red {
   color: #fff;
@@ -167,7 +170,7 @@ header {
 .text-red {
   color: #f00;
 }
-/* **********              ********** */
+/* **********        new offer section styles      ********** */
 .offer-section {
   display: flex;
   justify-content: space-around;
@@ -212,8 +215,6 @@ header {
 }
 .offer-photo img {
   border-radius: 364.844px;
-  /* width: 80%; */
-  /* height: 364.844px; */
   padding: 5%;
 }
 .offer-info-more {
@@ -229,7 +230,7 @@ header {
 .offer-info-more img {
   padding: 3% 0%;
 }
-/* **********    *********** */
+/* **********  discount section styles  *********** */
 .discount-info {
   text-align: center;
   padding: 7% 15%;
@@ -281,7 +282,7 @@ header {
   max-width: 99%;
   margin: auto;
 }
-/* *******   ******* */
+/* *******  Portfolio section styles  ******* */
 .portfolio-container .offer-info {
   width: 60%;
   margin: 5% 1%;
@@ -311,7 +312,7 @@ header {
   border-radius: 20px;
   box-shadow: 3px 5px 5px rgb(252, 128, 128);
 }
-/* ******************************* */
+/* **********   subscribe section styles   ********** */
 .subscribe-container {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
@@ -356,7 +357,13 @@ header {
   position: absolute;
   border: none;
   padding: 0% 2%;
+  transition: 0.3s ease-in-out;
 }
+.btn-subscribe:hover {
+  background: #ca0202;
+  transition: 0.3s ease-in-out;
+}
+/* **********  footer section styles ********** */
 footer {
   background: #070211;
   margin-top: 7%;
@@ -389,8 +396,9 @@ footer p {
   gap: 5px;
 }
 .footer-icon img:hover {
-border: 4px solid white;
-border-radius: 50px;
+  border: 4px solid white;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
 }
 hr {
   border: 1px #2c2835 solid;
